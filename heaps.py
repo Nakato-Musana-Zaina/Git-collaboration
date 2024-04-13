@@ -13,7 +13,6 @@ heapq.heappush(books,8)
 heapq.heappush(books,5)
 print(books)
 
-# //nums = [-15,132,188, 0,100, 45,19]
 
 helo = []
 heapq.heappush(helo,23)
@@ -23,13 +22,19 @@ print(helo)
 
 #creating a heap
 nums = [12,43,14,25,16]
-
-print(heapq.heapify(nums))
+heapq.heapify(nums)
+print(nums)
 
 #deleting the last element in a heap
 print(heapq.heappop(nums))
 
 #inserting an element
 heapq.heappush(nums, 42)
-
 print(nums)
+
+#to get the smallest values
+smallest_value = heapq.nsmallest(nums)
+print(smallest_value)
+
+largest_value = heapq.nlargest(nums)
+print(largest_value)
