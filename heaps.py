@@ -25,7 +25,6 @@ print(heapq.heappop(nums))
 
 #inserting an element
 heapq.heappush(nums, 42)
-
 print(nums)
 
 #to get the smallest values
