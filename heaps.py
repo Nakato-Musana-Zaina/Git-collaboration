@@ -8,7 +8,6 @@ heapq.heappush(books,8)
 heapq.heappush(books,5)
 print(books)
 
-# //nums = [-15,132,188, 0,100, 45,19]
 
 helo = []
 heapq.heappush(helo,23)
@@ -18,7 +17,8 @@ print(helo)
 
 #creating a heap from a list
 nums = [12,43,14,25,16]
-print(heapq.heapify(nums))
+heapq.heapify(nums)
+print(nums)
 
 #deleting the last element in a heap
 print(heapq.heappop(nums))
@@ -36,9 +36,3 @@ print(small_elements)
 large_elements = heapq.nlargest(2,nums)
 print(large_elements)
 
-# //max heap
-heap = []
-heapq.heappush(heap,-3)
-heapq.heappush(heap,-8)
-heapq.heappush(heap,-1)
-print([-x for x in heap])
