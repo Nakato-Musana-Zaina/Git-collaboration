@@ -35,5 +35,5 @@ print(max(number))
 #to get the minimum number
 print(min(number))
 
-#to delete a tuple
+# delete a tuple
 del (number)
